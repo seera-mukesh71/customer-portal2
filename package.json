@@ -15,7 +15,7 @@
     "@langchain/core": "^1.1.48",
     "@langchain/groq": "^1.2.1",
     "bcryptjs": "^3.0.3",
-    "dotenv": "^17.4.2",
+    "dotenv": "^16.6.1",
     "langchain": "^1.4.4",
     "next": "16.2.9",
     "pg": "^8.21.0",

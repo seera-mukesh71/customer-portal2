@@ -6,10 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "ingest": "node --env-file=.env.local scripts/ingest.js"
   },
   "dependencies": {
+    "@huggingface/inference": "^4.13.18",
+    "@langchain/community": "^1.1.29",
+    "@langchain/core": "^1.1.48",
+    "@langchain/groq": "^1.2.1",
     "bcryptjs": "^3.0.3",
+    "dotenv": "^17.4.2",
+    "langchain": "^1.4.4",
     "next": "16.2.9",
     "pg": "^8.21.0",
     "react": "19.2.4",
